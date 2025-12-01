@@ -32,7 +32,16 @@ Training and evaluation of:
 └── output_visualizations/        # SHAP plots, scatter plots
 ```
 
+### Visualizations
+
+#### SHAP Analysis
+
 ![SHAP Analysis](output_visualizations/Captura%20de%20pantalla%202025-12-01%20a%20la(s)%2012.06.39%E2%80%AFp.m..png)
+
+#### Construction cost prediction with epistemic uncertainty
+![Cost prediction analysis](output_visualizations/Captura%20de%20pantalla%202025-12-01%20a%20la(s)%2012.07.01%E2%80%AFp.m..png)
+
+
 ### Installation
 
 
