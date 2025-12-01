@@ -32,8 +32,7 @@ Training and evaluation of:
 └── output_visualizations/        # SHAP plots, scatter plots
 ```
 
-![SHAP Analysis](output_visualizations/shap_summary_dot_proj_0.pdf)
-
+![SHAP Analysis](output_visualizations/Captura%20de%20pantalla%202025-12-01%20a%20la(s)%2012.06.39%E2%80%AFp.m..png)
 ### Installation
 
 
