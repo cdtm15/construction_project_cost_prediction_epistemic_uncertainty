@@ -44,4 +44,29 @@ Training and evaluation of:
 
 ### Installation
 
+Clone the repository and install the required dependencies:
+```bash
+git clone https://github.com/cdtm15/construction_project_cost_prediction_epistemic_uncertainty.git
+cd construction-cost-uncertainty
+```
 
+### How to run
+
+```bash
+python main_db2.py
+```
+The script will:
+- Load and preprocess data
+- Generate SHAP analysis
+- Train ANN, SVM, RF for each cluster
+
+### Contributions
+Contributions and extensions are welcome in the following areas:
+- Bayesian / bootstrap uncertainty quantification
+- Integration into BIM platforms
+- Extensions to other construction datasets
+- Conformal or Quantile Conformal regression models
+- Feature selection enhancements beyond SHAP
+
+# License
+This project is licensed under the MIT License – see the LICENSE file for details.
