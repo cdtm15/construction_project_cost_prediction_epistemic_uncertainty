@@ -17,3 +17,23 @@ Training and evaluation of:
 - KNN
 - SVM
 - Neural Networks (TensorFlow)
+
+### Repository structure
+
+```bash
+.
+├── main.py                       # Main execution script
+├── file_data_reception_db2.py    # Data loading and initial parsing
+├── file_data_understanding_db2.py# Descriptive stats and correlations
+├── file_data_preparation_db2.py  # IQR filtering, encoding, clustering
+├── file_modeling_db2.py          # Classification models (optional)
+├── file_modeling_regresion_db2.py# Regression models and incremental analysis
+├── input_data/                   # Construction projects with market variables dataset
+└── output_visualizations/        # SHAP plots, scatter plots
+```
+
+![SHAP Analysis](output_visualizations/shap_summary_dot_proj_0.pdf)
+
+### Installation
+
+
