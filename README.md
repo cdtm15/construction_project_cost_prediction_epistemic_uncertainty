@@ -32,14 +32,15 @@ Training and evaluation of:
 └── output_visualizations/        # SHAP plots, scatter plots
 ```
 
-### Visualizations
+### Results
 
-#### SHAP Analysis
+#### SHAP and Model Performance Incremental Sensitivity Analysis for Large Scale Projects
 
-![SHAP Analysis](output_visualizations/Captura%20de%20pantalla%202025-12-01%20a%20la(s)%2012.06.39%E2%80%AFp.m..png)
+The figure reveals which economic indicators (land price index, gold price and construction cost of buildings by private sector at the time of completion of construction) produce meaningful improvements in predictive accuracy, and identifies the exact point where additional features no longer add value.
 
-#### Construction cost prediction with epistemic uncertainty
-![Cost prediction analysis](output_visualizations/Captura%20de%20pantalla%202025-12-01%20a%20la(s)%2012.07.01%E2%80%AFp.m..png)
+This has direct business relevance: companies can focus on the minimal set of economic variables that actually impact project uncertainty and financial performance.
+
+![SHAP Analysis and Models Performance](output_visualizations/Captura%20de%20pantalla%202025-12-06%20a%20la(s)%204.43.57%E2%80%AFp.m..png)
 
 
 ### Installation
